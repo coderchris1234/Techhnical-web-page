@@ -18,4 +18,49 @@ body{
     border-color: rgba(0, 22, 22, 0.4);
   }
 
+  #navbar ul {
+    height: 90%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  
+#navbar li {
+  color: #000;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#main_doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+  h3 {
+    margin: 1px !important;
+    text-decoration: underline;
+  }
+
+  header {
+    color: #000;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+  }
+
 /* Path: style.css */
